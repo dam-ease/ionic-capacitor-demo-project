@@ -7,8 +7,10 @@ workflows:
       app_store_connect: Codemagic
     environment:
       ios_signing:
-        distribution_type: ad_hoc
-        bundle_identifier: com.syringepump.app
+        # distribution_type: ad_hoc
+        # bundle_identifier: com.syringepump.app
+        provisioning_profiles:
+          - profile: Prov_Profile
       vars:
         # Ionic Xcode worskspace and scheme
         XCODE_WORKSPACE: "App.xcworkspace"
