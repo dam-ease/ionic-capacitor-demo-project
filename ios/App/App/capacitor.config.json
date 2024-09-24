@@ -1,5 +1,5 @@
 {
-  "appId": "com.codemagicioniccapacitor",
+  "appId": "io.codemagic.ionicsample",
   "appName": "codemagicioniccapacitor",
   "bundledWebRuntime": true,
   "npmClient": "npm",

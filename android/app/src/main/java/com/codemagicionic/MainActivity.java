@@ -1,4 +1,4 @@
-package com.codemagicioniccapacitor;
+package io.codemagic.ionicsample;
 
 import android.os.Bundle;
 
