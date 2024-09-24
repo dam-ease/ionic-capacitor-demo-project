@@ -6,9 +6,6 @@ workflows:
     integrations:
       app_store_connect: codemagic
     environment:
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: io.codemagic.ionicsample
       vars:
         # Ionic Xcode worskspace and scheme
         XCODE_WORKSPACE: "ios/App/App.xcworkspace"
